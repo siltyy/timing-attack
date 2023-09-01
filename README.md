@@ -9,4 +9,4 @@ eventually. in the mean time, `socat` is probably a reasonable (if not janky)
 solution for local binaries.
 
 i don't plan on actively working on this right now, feel free to contribute
-though.
+though. i just threw this up here in case somebody eventually finds it useful.
