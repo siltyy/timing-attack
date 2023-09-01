@@ -1,0 +1,13 @@
+[package]
+name = "timing-attack"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bufstream = "0.1.4"
+rayon = "1.7.0"
+rustls = "0.21.7"
+tap = "1.0.1"
+webpki-roots = "0.25.2"
