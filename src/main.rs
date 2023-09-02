@@ -59,7 +59,7 @@ fn submit_guess(
         // println!("recv: {:#?}", String::from_utf8_lossy(&received));
         received.clear();
 
-        stream.write(input).unwrap();
+        stream.write_all(input).unwrap();
         let start = time::Instant::now();
         stream.read_to_end(&mut received).unwrap();
         let duration = start.elapsed();
